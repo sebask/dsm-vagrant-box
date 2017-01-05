@@ -6,8 +6,7 @@ Vagrant.configure(2) do |config|
   # DSM Vagrant Box
 
   # Box
-  config.vm.box = "dsm_vagrant_box"
-  config.vm.box_url = "http://dsm-vagrant-box.s3.amazonaws.com/dsm_vagrant_box.box"
+  config.vm.box = "sebask/dsm-vagrant-box"
 
   # Public Network
   config.vm.network "public_network", auto_config: false
