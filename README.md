@@ -40,11 +40,10 @@ Your machine is now running!
 ### Access to your box
 Find out the IP of your guest machine. Go to http://find.synology.com to connect to the virtual Synology box, use the Synology Assistant (http://www.synology.com/en-us/support/download), or use something else.
 
-**Credentials:**
+**Credentials preconfigured Vagrant user:**
 
-Login: vagrant
-
-Password: vagrant
+Username: `vagrant`
+Password: `vagrant`
 
 ### Some notes
 This box is **only** prepped to make developing for DSM a little bit easier. Use it wisely.
